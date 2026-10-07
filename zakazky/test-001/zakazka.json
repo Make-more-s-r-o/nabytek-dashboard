@@ -1,0 +1,16 @@
+{
+ "autor": "Test (Claude)",
+ "nazev": "TEST — ověření příspěvků",
+ "popis": "Dočasná testovací zakázka pro ověření načítání příspěvků. Po ověření se smaže.",
+ "stav": "navrh",
+ "faze": { "poptavka": "2026-10-06", "navrh": "2026-10-07" },
+ "klient": { "jmeno": "rodina, Praha" },
+ "rozmery": { "sirka_mm": 800, "hloubka_mm": 300, "vyska_mm": 1200 },
+ "cena": { "material_bez_dph": 4200 },
+ "rendery": [ { "id": "r1", "soubor": "render.jpg", "popis": "Testovací render regálu" } ],
+ "hlavni_render": "r1",
+ "soubory": [ { "nazev": "Model GLB", "typ": "GLB", "url": "model.glb" } ],
+ "verze": [ { "cislo": "v1", "datum": "2026-10-07", "nazev": "Test verze", "render": { "soubor": "render.jpg" } } ],
+ "poznamky": [ { "datum": "2026-10-07 11:00", "autor": "Claude", "text": "Testovací poznámka s **tučným** textem." } ],
+ "model": "model.glb"
+}
