@@ -1,0 +1,64 @@
+{
+ "autor": "Jméno Příjmení",
+ "cislo": "xx-001",
+ "nazev": "Regál do obýváku",
+ "popis": "Otevřený regál 800 × 300 × 1200 mm z březové překližky 18 mm, dvě pevné police, záda HDF. Ukázka pro kolegy, na dashboardu se nezobrazuje.",
+ "stav": "navrh",
+ "faze": {
+  "poptavka": "2026-10-01",
+  "navrh": "2026-10-06"
+ },
+ "klient": {
+  "jmeno": "rodina, Praha",
+  "poznamka": "Chtějí světlé dřevo a nic na nožičkách."
+ },
+ "rozmery": {
+  "sirka_mm": 800,
+  "hloubka_mm": 300,
+  "vyska_mm": 1200,
+  "pozn": "Volná stěna mezi oknem a dveřmi."
+ },
+ "cena": {
+  "material_bez_dph": 4200,
+  "sluzby_low": 3000,
+  "sluzby_high": 4500,
+  "nabidnuto": null,
+  "marze_pct": null,
+  "pozn": "Odhad z veřejného ceníku, bez dopravy."
+ },
+ "termin": "2026-11-15",
+ "soubory": [
+  { "nazev": "3D model regálu", "typ": "GLB", "url": "model.glb" },
+  { "nazev": "Inspirace (veřejný odkaz)", "typ": "WEB", "url": "https://make-more-s-r-o.github.io/nabytek-dashboard/" }
+ ],
+ "rendery": [
+  { "id": "r1", "soubor": "render.jpg", "popis": "Hlavní pohled zepředu zprava" }
+ ],
+ "hlavni_render": "r1",
+ "aktualizovano": "2026-10-07T09:00:00Z",
+ "verze": [
+  {
+   "cislo": "v1",
+   "poradi": 1,
+   "datum": "2026-10-06",
+   "nazev": "První návrh",
+   "popis_zmen": "Dvě pevné police, záda HDF.",
+   "render": { "soubor": "render.jpg" },
+   "stav": "navrh",
+   "cena_material_bez_dph": 4200,
+   "pocet_dilu": 7
+  }
+ ],
+ "poznamky": [
+  { "datum": "2026-10-06 14:30", "autor": "Jméno Příjmení", "text": "Klient chce **světlé dřevo**. Příště zkusit variantu s posuvnou policí." }
+ ],
+ "model": {
+  "soubor": "model.glb",
+  "nazev": "Regál v1",
+  "verze": "v1",
+  "skupiny": [
+   { "id": "korpus", "nazev": "Korpus", "vychozi": true },
+   { "id": "police", "nazev": "Police", "vychozi": true }
+  ]
+ }
+}
